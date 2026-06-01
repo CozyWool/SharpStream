@@ -1,4 +1,4 @@
-﻿namespace SharpStreamBackend.Hubs;
+﻿namespace SharpStream.Backend.Hubs;
 
 /// <summary>
 /// Defines the methods that the signaling server can invoke on the client side.

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 
-namespace SharpStreamBackend.Hubs;
+namespace SharpStream.Backend.Hubs;
 
 /// <summary>
 /// Signaling hub for managing rooms and coordinating WebRTC connections.

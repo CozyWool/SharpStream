@@ -1,0 +1,7 @@
+<Solution>
+    <Folder Name="/Solution Items/">
+        <File Path="compose.yaml" />
+    </Folder>
+    <Project Path="SharpStream.Backend/SharpStream.Backend.csproj" />
+    <Project Path="SharpStream.Client/SharpStream.Client.csproj" />
+</Solution>

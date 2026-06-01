@@ -1,4 +1,4 @@
-using SharpStreamBackend.Hubs;
+using SharpStream.Backend.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
