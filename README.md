@@ -13,7 +13,7 @@
 Проект полностью написан на C# и разделен на две логические части:
 
 **Desktop Client (Стример/Зритель):**
-* **Фреймворк:** .NET 8 / WPF
+* **Фреймворк:** .NET 10 / WPF
 * **Архитектура:** MVVM (CommunityToolkit.Mvvm)
 * **Захват видео:** Windows.Graphics.Capture API (WGC) + Direct3D 11
 * **Захват аудио:** NAudio (WASAPI)
