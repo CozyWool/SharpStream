@@ -1,3 +1,5 @@
+using SharpStreamBackend.Hubs;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration
@@ -23,6 +25,7 @@ builder.Services.AddSwaggerGen(c =>
                                    c.SwaggerDoc("v1", new() { Title = "SharpStream Signaling API", Version = "v1" });
                                });
 
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -35,5 +38,6 @@ if (app.Environment.IsDevelopment())
 app.UseCors();
 
 app.MapGet("/", () => "SharpStream Signaling Server is running!");
+app.MapHub<SignalingHub>("/signaling");
 
 app.Run();
