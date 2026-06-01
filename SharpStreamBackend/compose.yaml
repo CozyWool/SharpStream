@@ -1,0 +1,7 @@
+﻿services:
+  sharpstreambackend:
+    image: sharpstreambackend
+    build:
+      context: .
+      dockerfile: Dockerfile
+
